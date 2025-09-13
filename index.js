@@ -1147,7 +1147,7 @@ const asciiArt = `
 `;
 
 console.log(color(asciiArt, 'cyan'));
-console.log(color('🤖 WhatsApp Public Bot Starting...', 'blue'));
+console.log(color('🤖 Horlapookie Bot Starting...', 'blue'));
 console.log('═'.repeat(50));
 startBot().catch(err => {
   console.log(color(`[FATAL] Critical startup error: ${err.message}`, 'red'));
