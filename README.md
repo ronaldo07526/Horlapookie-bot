@@ -49,7 +49,7 @@ When the bot starts, you'll see this animated terminal-style display:
 ## 📱 Connection Message
 When the bot starts successfully, you'll see this welcome message:
 
-![Connection Success](https://i.imgur.com/connection-message.png)
+![Connection Success](https://files.catbox.moe/vtrfi0.jpg)
 
 *The bot sends an automated welcome message with connection details when it comes online*
 
