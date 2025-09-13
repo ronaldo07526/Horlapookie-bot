@@ -38,7 +38,7 @@ When the bot starts, you'll see this animated terminal-style display:
 ║  ██╔═══╝ ██║   ██║██║   ██║██╔═██╗ ██║██║  ║
 ║  ██║     ╚██████╔╝╚██████╔╝██║  ██╗██║███║ ║
 ║  ╚═╝      ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝╚══╝ ║
-║           🌟 WhatsApp Bot v3.0 🌟          ║
+║           🌟 Horlapookie Bot v2.0 🌟          ║
 ╚═══════════════════════════════════════════╝
 🚀 Starting HORLAPOOKIE Bot...
 ```
@@ -108,8 +108,8 @@ When the bot starts successfully, you'll see this welcome message:
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/horlapookie/whatsapp-bot.git
-cd whatsapp-bot
+git clone https://github.com/horlapookie/Horlapookie-bot.git
+cd Horlapookie-bot
 ```
 
 2. **Install dependencies**
