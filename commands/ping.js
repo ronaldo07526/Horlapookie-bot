@@ -17,7 +17,7 @@ export default {
     });
 
     const response = await sock.sendMessage(msg.key.remoteJid, {
-      text: `${emojis.success} *Bot is alive and  is no mor twerking again...*`,
+      text: `${emojis.success} *Bot is alive bro😆,deploy yours...*`,
     }, { quoted: msg });
 
     const elapsed = Date.now() - start;
