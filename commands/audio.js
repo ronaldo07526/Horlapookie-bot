@@ -8,6 +8,8 @@ import { exec } from 'child_process';
 import util from 'util';
 import ytdl from '@distube/ytdl-core';
 import { fileURLToPath } from 'url';
+import { File } from "undici";  
+global.File = File;
 
 // Load emojis
 const emojisPath = path.join(process.cwd(), 'data', 'emojis.json');
