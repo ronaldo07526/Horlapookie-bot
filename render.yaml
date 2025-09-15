@@ -4,11 +4,13 @@ services:
     name: horlapookie-bot
     env: node
     plan: free
-    buildCommand: npm install
-    startCommand: node index.js
+    buildCommand: npm install --legacy-peer-deps
+    startCommand: node --experimental-modules index.js
     envVars:
       - key: NODE_ENV
         value: production
+      - key: NODE_OPTIONS
+        value: "--experimental-modules --experimental-specifier-resolution=node"
       - key: BOT_SESSION_DATA
         sync: false
       - key: BOT_PREFIX
@@ -19,8 +21,8 @@ services:
         sync: false
       - key: BOT_NAME
         sync: false
-    healthCheckPath: /
     disk:
       name: horlapookie-data
       mountPath: /opt/render/project/src/data
       sizeGB: 1
+      
