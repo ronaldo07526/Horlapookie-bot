@@ -1,0 +1,26 @@
+
+services:
+  - type: web
+    name: horlapookie-bot
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: BOT_SESSION_DATA
+        sync: false
+      - key: BOT_PREFIX
+        value: "."
+      - key: BOT_OWNER
+        sync: false
+      - key: BOT_OWNER_NAME
+        sync: false
+      - key: BOT_NAME
+        sync: false
+    healthCheckPath: /
+    disk:
+      name: horlapookie-data
+      mountPath: /opt/render/project/src/data
+      sizeGB: 1
