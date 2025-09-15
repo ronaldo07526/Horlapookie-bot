@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: horlapookie-bot
-    env: node
-    plan: free
-    buildCommand: npm install --legacy-peer-deps
-    startCommand: node index.js
